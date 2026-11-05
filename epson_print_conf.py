@@ -25,7 +25,6 @@ try:
     from asyncio import TimeoutError as AsyncioTimeoutError
 except ImportError:  # pragma: no cover - asyncio is always there
     AsyncioTimeoutError = TimeoutError
-import yaml
 from pathlib import Path
 import pickle
 import hashlib
